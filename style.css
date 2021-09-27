@@ -96,7 +96,7 @@ main .pagination-loader-container {
   background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg);
 }
 
-/*! Custom CSS */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
 
 body {
   font-family: -apple-system, "BlinkMacSystemFont", "Hiragino Kaku Gothic ProN",
@@ -128,6 +128,10 @@ body {
 ::selection {
   text-shadow: none;
   background: #a3c4fc;
+}
+
+.highlight pre {
+  font-family: "Source Code Pro", monospace;
 }
 
 .gsc-reply-content .highlight pre {
