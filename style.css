@@ -119,3 +119,8 @@ main .pagination-loader-container {
 .color-box-border-info {
   border-style: none;
 }
+
+::selection {
+  text-shadow: none;
+  background: #a3c4fc;
+}
