@@ -129,3 +129,11 @@ body {
   text-shadow: none;
   background: #a3c4fc;
 }
+
+.gsc-reply-content .highlight pre {
+  background-color: var(--color-bg-canvas);
+}
+
+.gsc-comment-content .highlight pre {
+  background-color: var(--color-bg-canvas-inset);
+}
