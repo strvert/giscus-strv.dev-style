@@ -96,8 +96,6 @@ main .pagination-loader-container {
   background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line.svg);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
-
 body {
   font-family: -apple-system, "BlinkMacSystemFont", "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif, "Segoe UI Emoji";
@@ -130,14 +128,22 @@ body {
   background: #a3c4fc;
 }
 
-.highlight pre {
-  font-family: "Source Code Pro", monospace;
-}
-
 .gsc-reply-content .highlight pre {
   background-color: var(--color-bg-canvas);
 }
 
 .gsc-comment-content .highlight pre {
   background-color: var(--color-bg-canvas-inset);
+}
+
+.markdown pre {
+  border-radius: 5px;
+}
+
+.border-b {
+  border-bottom-width: 0;
+}
+
+.rounded {
+  border-radius: 5px;
 }
