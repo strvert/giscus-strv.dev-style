@@ -98,6 +98,11 @@ main .pagination-loader-container {
 
 /*! Custom CSS */
 
+html {
+  font-family: -apple-system, "BlinkMacSystemFont", "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", Meiryo, sans-serif, "Segoe UI Emoji";
+}
+
 .gsc-main {
   width: initial;
   margin-inline-start: 10px;
