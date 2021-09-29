@@ -4,7 +4,7 @@ main {
   --color-text-tertiary: #57606a;
   --color-text-link: #0969da;
   --color-text-danger: #cf222e;
-  --color-text-success: #1a7f37;
+  --color-text-success: #7ac292;
   --color-border-primary: #d0d7de;
   --color-border-secondary: #d8dee4;
   --color-border-tertiary: rgba(175, 184, 193, 0.4);
@@ -41,7 +41,7 @@ main {
   --color-btn-active-bg: #ebecf0;
   --color-btn-active-border: rgba(27, 31, 36, 0.15);
   --color-btn-primary-text: #fff;
-  --color-btn-primary-bg: #2da44e;
+  --color-btn-primary-bg: #7ac292;
   --color-btn-primary-border: rgba(27, 31, 36, 0.15);
   --color-btn-primary-shadow: 0 1px 0 rgba(27, 31, 36, 0.1);
   --color-btn-primary-inset-shadow: inset 0 1px 0 hsla(0, 0%, 100%, 0.03);
